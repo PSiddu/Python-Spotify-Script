@@ -12,8 +12,8 @@ import os
 import keyboard
 
 # Client ID, Secret, and Redirect URI as environment variables (for security purposes)
-os.environ['SPOTIPY_CLIENT_ID'] = '69d3c70d5a694b9cb16caab7bb1f10eb'
-os.environ['SPOTIPY_CLIENT_SECRET'] = 'eb3ca8cb82d74aaaae37b04f615beeaa'
+os.environ['SPOTIPY_CLIENT_ID'] = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+os.environ['SPOTIPY_CLIENT_SECRET'] = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 os.environ['SPOTIPY_REDIRECT_URI'] = 'https://www.spotify.com/ca-en/'
 
 # makes use of token for authentication (login screen appears in browser when ran for first time)
